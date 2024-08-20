@@ -1,0 +1,33 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="{% static 'gateway/main.css' %}">
+</head>
+<body>
+    <div class = 'disc_and_butt'> 
+        <h2>Donate for the ones who deserve</h2>
+        <div class = 'button_div'>
+            <a href="{% url 'payment' %}">
+                <button type="button">DONATE</button>
+            </a>
+        </div>
+    </div>
+
+    <div class = "images"  >
+        <img src="{% static 'gateway/image3.jpg' %}" alt="Loading">
+        <img src="{% static 'gateway/image4.avif' %}" alt="Loading">
+        <img src="{% static 'gateway/image5.avif' %}" alt="Loading">
+        <img src="{% static 'gateway/image6.avif' %}" alt="Loading">
+        <img src="{% static 'gateway/image7.avif' %}" alt="Loading">
+        <img src="{% static 'gateway/image8.avif' %}" alt="Loading">
+        <img src="{% static 'gateway/image9.webp' %}" alt="Loading">
+        <img src="{% static 'gateway/image10.avif' %}" alt="Loading">
+        <img src="{% static 'gateway/image11.avif' %}" alt="Loading">
+    </div>
+</body>
+</html>

@@ -1,0 +1,70 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.box{
+    position: absolute;
+    height: 99vh;
+    width: 30vw;
+    background-color: aqua;
+}
+.transaction{
+    margin-top: 20vh;
+    margin-left: 5vw;
+}
+
+.transaction p{
+    font-size: xx-large;
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.transaction label {
+    font-size: 30px; /* Increase font size for labels */
+    margin: 10px 0;
+}
+
+.transaction input[type="number"] {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.submit{
+    margin: 15px;
+}
+
+.submit button{
+    padding: 15px 25px;
+    font-size: 20px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.submit button:hover {
+    transition: border-radius 1s ease-in-out;
+    border-radius: 20px;
+    background-color: #0056b3;
+}
+
+.image_div{
+    height: 99vh;
+    width: 70vw;
+    position: absolute;
+    top: 0;
+    right: 0; 
+}
+
+.image_div img{
+    height: 99vh;
+    width: 70vw;
+    top: 0;
+    right: 0;
+}
